@@ -36,7 +36,7 @@ On a aussi pus s'en servire dans la page d'upload du fichier car l'orsque l'on a
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-#Flask
+# Flask
 
 Flask est une librairie en python elle est utilisé pour le développement web et de notre coté on s'en ait servie pour l'interaction avec la page web au niveau de l'upload de document et de la récupération des document sur le serveur. Nous nous somme beaucoup aidé de la documentation et de tutoriel pour arrivé a comprendre ce que c'était étant donnée que c'était nouveau.
 
@@ -46,7 +46,7 @@ Flask fut la librairie que nous avons le plus utilisé mais il y a 2 autre libra
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-#Le docker
+# Le docker
 
 Comme demandé le docker est sous la dernier version de débian.
 Nous n'avons pas apporté beaucoup de modification au docker juste mis a jour les package et installé python3-pip de façon a installé tout ce dont a besoins le programme.
