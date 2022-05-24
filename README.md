@@ -1,10 +1,13 @@
 ## Rendu de projet SAE 2.03 site d'upload de fichier.
 
-You can use the [editor on GitHub](https://github.com/EstebanBreaHell/docker-sae203/edit/gh-pages/README.md) to maintain and preview the content for your website in Markdown files.
+Ce projet a était fait sous la base d'un docker débian sur le quel nous avons installé tout les besoins tel que Python et les librairie python stocker dans un dosser requirement.txt
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
+
+### Html
+### Python 
+### Flask
+### Le docker
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
