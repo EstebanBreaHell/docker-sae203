@@ -1,14 +1,14 @@
-## Rendu de projet SAE 2.03 site d'upload de Docuement.
+## Rendu de projet SAE 2.03 site d'upload de documents.
 
-Ce projet a était fait sous la base d'un docker débian sur le quel tout les besoins nécessaire au projet 
+Ce projet a été fait sous la base d'un docker Debian sur lequel tout les besoins nécessaire au projet s'installe grâce au docker file.
 
 #Site d'upload de Document.
 
-Nous avons décidé de crée un site qui permet de partagé des document et de téléchargé les document que les personne on partagé. nous aurons donc en premier lieu l'endroit ou l'on ajoute les fichier au site et un autre endroit avec la liste des document ajouter que l'on pourra regarder dans le navigateur et téléchargé.
+Nous avons décidé de créer un site qui permet de partager des documents et de télécharger les documents que les personnes ont partagé. Nous aurons donc en premier lieu l'endroit ou l'on ajoute les fichiers au site et un autre endroit avec la liste des documents ajoutés que l'on pourra regarder dans le navigateur et télécharger.
 
 
 
-### Html
+### HTML
 ### Python 
 ### Flask
 ### Le docker
@@ -16,23 +16,21 @@ Nous avons décidé de crée un site qui permet de partagé des document et de t
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-# Html
+# HTML
 
-Vus que nous avons crée un projet web il nous fallait une base de html, cette base html éxiste elle est nommé base.html. il est alimenté grace a python et on se sert du meme fichier base.html pour la partie d'upload et la partie ou on regarde les fichier stocker.
+Vu que nous avons créé un projet web, il nous fallait une base de HTML, celle-ci est nommée base.html. Il est alimenté grâce à Python et on se sert du même fichier base.html pour la partie d'upload et la partie où l'on regarde les fichier stockés.
 
-Le css est présent mais n'est pas nécessaire au projet mais il rend le site beaucoup plus agréable d'usage.
+Le CSS est présent, il n'est pas nécessaire au projet mais il rend le site beaucoup plus agréable d'usage.
 
 
-------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
+------------------------------------------------------------------------------------------------------------------------------------------------------------------ 
 # Python
 
-Python a était un choix parmis tant d'autre nous avions de base commencer le projet en php mais c'était très compliquer d'apprendre le language durant un peu court de temps donc nous avons opté pour du python car c'est un language plutot simple a comprendre de plus certain membre en avait déja fait au par avant et ils était a l'aise avec la librairie utilisé.
+Python a été un choix parmis tant d'autres, nous avions de base commencé le projet en PHP mais c'était très compliqué d'apprendre le langage sur une courte durée, donc nous avons opté pour du Python car c'est un language plutôt simple à comprendre. De plus certains membres en avaient déja fait auparavant et ils étaient à l'aise avec la librairie utilisé.
+Le code python génère les requêtes et "Crée les pages web" grâce à un module de model, on indique du code HTML et il crée des pages grâce a ce code HTML qu'il peut répéter.
+C'est très utile pour générer la liste des fichiers disponibles à chaque fois qu'on crée un nouvel élément dans la liste.
 
-Le code python génère les requette et "Crée les pages web" grace a un module de model, on indique du code html et il crée des page grace a ce code html que il peut répété.
-c'est très utile pour généré la liste des fichier disponible a chaque fois on crée un nouvelle élément dans la liste.
-
-On a aussi pus s'en servire dans la page d'upload du fichier car l'orsque l'on ajoute un fichier il faut remetre la page a vide avec aucun fichier de charger pour évité les multiple upload par mégarde.
+On a aussi pu s'en servir dans la page d'upload du fichier car lorsqu'on ajoute un fichier il faut remettre la page à vide avec aucun fichier de chargé pour éviter les multiples uploads par mégarde.
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
