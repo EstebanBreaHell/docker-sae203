@@ -14,7 +14,5 @@ A2 - LE CHOSSEC Marcelin
 #Liens vers le site web du projet
 https://estebanbreahell.github.io/docker-sae203/
 
-docker-sae203
-
 # Liens vers le dépôt github du projet
 https://github.com/EstebanBreaHell/docker-sae203/
