@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+
+{% block title %}
+    Formulaire d'upload de fichers
+{% endblock %}
+
+{% block content %}
+    <div class = "banner">
+        <h1>
+            Serveur FTP
+        </h1>
+        <h3>
+            Ceci est un exemple simple de serveur de partage de fichier basé sur le protocole FTP
+        <h3>
+    </div>
+
+    <div class = "box">
+        <h1>
+            Publier un nouveau fichier
+        </h1>
+        <form method=post enctype=multipart/form-data action="/upload">
+        <input type=file name=file>
+        <input type=submit value=Upload>
+        <a  href="/files" id="prev">Accès au fichier</a>
+        </form>
+    </div>
+{% endblock %}
+    

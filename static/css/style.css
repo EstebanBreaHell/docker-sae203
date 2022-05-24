@@ -1,0 +1,51 @@
+body {
+	background-image : url("./font2.jpg");
+	background-repeat: round space;
+	text-align: center;
+}
+
+h1 {
+	color : #fff;
+}
+
+h3 {
+	color : silver	;
+}
+
+.box {
+	width : 400px;
+	border : solid gray 3px;
+	border-radius: 25px;
+	text-align: center;
+	margin : 0 auto;
+	height: 135px;
+
+	margin-top: 30vh; /* poussé de la moitié de hauteur de viewport */
+  	transform: translateY(-50%); /* tiré de la moitié de sa propre hauteur */
+
+	background-color: rgb(100, 100, 100);
+}
+
+
+footer {
+	color : siver;
+	border 			: 2px solid black;
+	padding			: 0px;
+	min-width		: 100%;
+	background-color: rgb(100, 100, 100 );
+	position: fixed;
+	bottom : 0px;
+}
+
+ul {
+    list-style: none;
+    padding: 0px;
+    color : white;
+    margin : auto;
+}
+
+
+ul li:before {
+    content: '\2192';
+
+}
