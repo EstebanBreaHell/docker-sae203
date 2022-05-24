@@ -1,10 +1,10 @@
-# Projet SAE 2.03 Equipe X
-(Changez la X par votre numéro d'équipe)
+# Projet SAE 2.03 Equipe 26
 
-# Titre du projet
-(Le titre doit être court et descriptif)
 
-Installation d'un service Apache + MariaDB + PHP avec docker
+# Serveur partage de fichier.
+
+
+Installation d'un service docker contenant Debian + Python + Flask + HTML 
 # Membres de l'équipe
 
 A1 - BREA HELL Esteban
