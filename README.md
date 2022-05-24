@@ -7,10 +7,10 @@
 Installation d'un service Apache + MariaDB + PHP avec docker
 #Membres de l'équipe
 
-E2 - JIMÉNEZ Juanlu
-E2 - COLIN Jean-Yves
-E2 - DUFLO Hugues
-
+A1 - BREA HELL Esteban
+A2 - HANIN Anthony
+A2 - POIS--BONS Alexandre
+A2 - LE CHOSSEC Marcelin
 #Liens vers le site web du projet
 https://estebanbreahell.github.io/docker-sae203/
 
