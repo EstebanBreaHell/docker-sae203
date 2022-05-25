@@ -24,4 +24,4 @@ docker run --name <nom du conteneur de votre choix> -d -p <port au choix>:80 <no
 
 # Puis il reste a aller sur le site :) 
 
-pour cela il vous suffit de aller dans votre http://localhost:<port choisi au run>
+pour cela il vous suffit de aller dans votre 'http://localhost:<port choisi au run>'
