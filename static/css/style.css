@@ -49,3 +49,9 @@ ul li:before {
     content: '\2192';
 
 }
+
+a
+{
+color: red;
+font-size:34px
+}
