@@ -8,7 +8,7 @@ ALLOWED_EXTENSIONS = {'txt', 'pdf', 'png', 'jpg', 'jpeg', 'gif'}
 #Les paramètre de base de flask l'utilitaire de python pour faire du web réactif
 app = Flask(__name__)
 app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
-
+app.config['SECRET_KEY'] = 'Apparament il faut mettre quelque chose aléatoire'
 #Ici c'est juste une verification de l'extension du fichier pour voir si elle est accéptable
 def allowed_file(filename):
     return '.' in filename and \
