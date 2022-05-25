@@ -7,10 +7,10 @@
 Installation d'un service docker contenant Debian + Python + Flask + HTML 
 # Membres de l'équipe
 
-A1 - BREA HELL Esteban
-A2 - HANIN Anthony
-A2 - POIS--BONS Alexandre
-A2 - LE CHOSSEC Marcelin
+##A1 - BREA HELL Esteban
+##A2 - HANIN Anthony
+##A2 - POIS--BONS Alexandre
+##A2 - LE CHOSSEC Marcelin
 #Liens vers le site web du projet
 https://estebanbreahell.github.io/docker-sae203/
 
